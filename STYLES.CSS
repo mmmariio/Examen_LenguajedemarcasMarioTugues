@@ -1,0 +1,49 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.data-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.data-item {
+    border: 1px solid #792929;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.data-item h3 {
+    margin-top: 0;
+}
+
+#filterInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #5a1b1b;
+}
+
+#filterInput:focus {
+    outline: none;
+    border-color: rgb(36, 63, 90);
+    box-shadow: 0 0 5px dodgerblue;
+}
+body {
+    background-image: url('/ico-vjj2.png'); /* Reemplaza 'tu_imagen_de_fondo.jpg' con la ruta de tu imagen */
+    background-size: cover; /* Para asegurar que la imagen cubra toda la pantalla */
+    background-position-x: center; /* Para centrar la imagen */
+    background-repeat: no-repeat; /* Para evitar que la imagen se repita */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Agrega un fondo semi-transparente al contenido para mejorar la legibilidad */
+}

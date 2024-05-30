@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Asesoría Energética</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta Asesoría Energética</h1>
+        <input type="text" id="filterInput" onkeyup="filterData()" placeholder="Buscar...">
+        <button onclick="search()">Lista</button> <!-- Botón para realizar la búsqueda -->
+        <ul id="data-list" class="data-list">
+            <!-- Los datos se cargarán mediante JavaScript -->
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
