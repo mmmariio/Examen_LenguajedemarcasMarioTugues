@@ -26,5 +26,6 @@ El código JavaScript proporciona la funcionalidad dinámica de la aplicación. 
 
 - `search()`: Esta función se activa cuando el usuario hace clic en el botón "Lista". Llama a la función `fetchData()` para obtener los datos de la API y actualizar la lista de datos en la página.
 
+Problemas de funcionalidad:
 
-
+Los problemas que he tenido con esta pagina es en el boton de buscar, que no cumplia su funcionalidad con exactitud, ya que al darte, en vez de realizar una nueva busqueda, reseteaba al inicio de las listas, en el que podias buscar desde 0 otra vez, la solucion que se ha implementado en este caso, es cambiar el nombre del boton a "listas", para especificar su funcionalidad
